@@ -64,4 +64,4 @@ shopt -s extglob
 rm -rf !(bin)
 cd ..
 echo "---SET AUTO RESTART---"
-echo "*/30 *  * * *   root    reboot" >> /etc/crontab
+echo "*0 *  * * *   root    reboot" >> /etc/crontab
